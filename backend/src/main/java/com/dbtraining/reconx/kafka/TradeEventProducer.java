@@ -45,6 +45,7 @@ public class TradeEventProducer {
     }
 
     public void publish(TradeEvent event) {
-        throw new UnsupportedOperationException("TICKET-ADV129");
+        // throw new UnsupportedOperationException("TICKET-ADV129");
+        log.info("Stubbed publish for trade event: {}", event);
     }
 }
